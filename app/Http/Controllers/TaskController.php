@@ -38,7 +38,7 @@ class TaskController extends Controller
 
             Cache::tags(['tasks'])->flush();
 
-            return  response()->json([ 'Ok' => true, 'message' => "Tarefa cadastrada com sucesso!"], 200);
+            return  response()->json([ 'Ok' => true, 'message' => "Tarefa cadastrada com sucesso!"], 201);
 
         } catch (Exception $e) {
             Log::error("Erro ao inserir tarefa:", [$e->getMessage()]);
