@@ -33,7 +33,7 @@ O projeto visa demonstrar conhecimentos em:
 - **Laravel Vite Plugin** - Integração Vite/Laravel
 - **Concurrently** - Execução paralela de comandos
 - **Laravel Pail** - Log viewer
-- **PHPUnit** - Testes unitários
+- **PEST Php** - Testes unitários
 
 ## Estrutura do Projeto
 
